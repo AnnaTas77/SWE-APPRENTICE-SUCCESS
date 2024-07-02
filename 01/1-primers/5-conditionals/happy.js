@@ -17,6 +17,12 @@ let happy;
 
 // YOUR CODE HERE
 
+if (activity === 'dancing' || activity === 'swimming'){
+    happy=true;
+} else {
+    happy=false;
+}
+
 
 
 

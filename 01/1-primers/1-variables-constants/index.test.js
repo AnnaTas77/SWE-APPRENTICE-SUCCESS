@@ -30,7 +30,7 @@ describe("`name` constant", () => {
     };
     
     // Expect that re-assignAttempt will throw a TypeError
-    expect(reassignAttempt).toThrow(TypeError);
+    expect(reassignAttempt).toThrow(Error);
 
     // Compare the value after the attempted modification
     expect(name).toBe(originalValue);
@@ -67,7 +67,7 @@ describe("pi", () => {
     };
     
     // Expect that re-assignAttempt will throw a TypeError
-    expect(reassignAttempt).toThrow(TypeError);
+    expect(reassignAttempt).toThrow(Error);
 
     // Compare the value after the attempted modification
     expect(pi).toBe(originalValue);

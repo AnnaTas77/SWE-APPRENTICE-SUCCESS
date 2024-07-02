@@ -22,7 +22,9 @@ let balance = null;
 
 // YOUR CODE HERE
 
+balance=amtInWallet-totalPrice
 
+console.log(balance)
 
 
 // DO NOT EDIT BELOW
