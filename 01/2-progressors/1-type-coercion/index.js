@@ -66,16 +66,14 @@ function separateTypes(input) {
   const resultObject = {};
 
   input.forEach((item) => {
-    resultObject[typeof item] = [];
-  });
-
-  for (let i = 0; i < input.length; i++) {
-    for (const key in resultObject) {
-      if (key === typeof input[i]) {
-        resultObject[key].push(input[i]);
-      }
+    let itemType = typeof item;
+    let itemTypeIsNotInResultObject = !resultObject[itemType];
+    if (itemTypeIsNotInResultObject) {
+      resultObject[itemType] = [];
     }
-  }
+
+    resultObject[itemType].push(item);
+  });
 
   return resultObject;
 }
