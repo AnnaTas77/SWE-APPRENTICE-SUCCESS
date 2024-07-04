@@ -5,20 +5,12 @@ isFamous(50000) should return false
 isFamous(150000) should return true
 */
 
-
-
-
-
 // 2. Define an arrow function, `isHot`, that takes in a temperature (in Celsius), and returns a string indicating whether or not the weather is considered "hot". If the temperature is above 30 degrees, it is hot, otherwise it is not. USE THE TERNARY OPERATOR
 /* 
 Examples:
 isHot(25) should return `not hot`
 isHot(35) should return `hot`
 */
-
-
-
-
 
 /* 3. Define an arrow function, `gradeSystem`, that takes a numerical score as an argument and returns the corresponding letter grade based on the following scale:
     - 90 and above: "A"
@@ -32,20 +24,12 @@ gradeSystem(85) should return "B"
 gradeSystem(55) should return "F"
 */
 
-
-
-
-
 // 4. Define an arrow function, `calculateDiscount`, that takes the original price of an item and a discount percentage as arguments. The function should return the final price after applying the discount. If the discount percentage is greater than or equal to 50, there's an additional 5% discount applied.
 /*
 Examples:
 calculateDiscount(100, 25) returns 75 (a 25% discount)
 calculateDiscount(100, 50) returns 45 (a 55% discount)
 */
-
-
-
-
 
 /* 5. Write a function greetByTime that takes the current hour (in 24-hour format) as an argument and returns a greeting message based on the time of the day:
     5:00 - 11:59: "Good morning!"
@@ -59,10 +43,5 @@ Examples:
     greetByTime(2) should return "Good night!"
 */
 
-
-
-
-
-
-
 export { isFamous, isHot, gradeSystem, calculateDiscount, greetByTime };
+g;
